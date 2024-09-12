@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.display{
+    height: 25vh;
+    width:95vw ;  
+}
+.rows{
+    height: 15vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    justify-content:space-around;
+    font-weight: bolder;
+}
+.buttons.num{
+    background-color: rgb(102, 101, 101);
+    padding: 20px;
+    border-radius: 50px ;
+    margin: 10px;  
+    text-align: center;
+}
+.buttons.first{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 50px ;
+    margin: 10px; 
+    color: rgb(66, 57, 57);
+}
+.buttons.second{
+    background-color: darkorange;
+    padding: 20px;
+    border-radius: 50px ;
+    margin: 10px; 
+}
+.buttons:hover{
+    background-color: rgba(0, 255, 255, 0.781);
+}
+.buttons:active{
+    background-color: black;
+}
