@@ -44,4 +44,20 @@ body{
 .buttons{
     font-size: xx-large;
     font-weight: 500;
+    transition: 0.15 sec all;
+}
+.numbers{
+    color: white;
+    width: 95vw;
+    height: 20vh;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.buttons.equalss{
+    background-color: darkorange;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 10px; 
 }
