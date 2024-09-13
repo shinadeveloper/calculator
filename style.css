@@ -23,6 +23,7 @@ body{
     border-radius: 50px ;
     margin: 10px;  
     text-align: center;
+    color: white;
 }
 .buttons.first{
     background-color: rgb(255, 255, 255);
@@ -34,12 +35,13 @@ body{
 .buttons.second{
     background-color: darkorange;
     padding: 20px;
-    border-radius: 50px ;
+    border-radius: 50px;
     margin: 10px; 
 }
 .buttons:hover{
     background-color: rgba(0, 255, 255, 0.781);
 }
-.buttons:active{
-    background-color: black;
+.buttons{
+    font-size: xx-large;
+    font-weight: 500;
 }
